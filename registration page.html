@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="navigation.css"/>
+	<style type="text/css">
+		body{
+			background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200729/pngtree-colorful-flow-background-with-fluid-form-image_372440.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		.registration-page{
+			border: 2px solid brown;
+			width: 13.5%;
+			margin-left: 35%;
+			margin-top: 4.5%;
+			padding: 2%;
+			border-radius: 10px;
+
+		}
+		.btn-submit{
+			background-color: skyblue;
+			color: black;
+			margin: 5%;
+		}
+		.btn-reset{
+			background-color: skyblue;
+			color: black;
+			margin: 5%;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<a href="registration page.html">registeration page</a>
+		<a href="login.html">Login</a>
+		<a href="#">Biography</a>
+		<a href="#">photos</a>
+	</nav>
+	<form class="registration-page"action="login.html">
+		<p><b>REGISTRATION PAGE</b></p>
+		<p><input type="text" placeholder="Enter name" required/></p>
+		<p><input type="email" placeholder="Enter email address" required/></p>
+		<p><input type="password" placeholder="Enter password" required/></p>
+		<p><input type="password" placeholder="Confirm password" required/></p>
+		<p><input type="number" placeholder="Enter mobile number" required/></p>
+		<p><input type="date" required/>
+		<p>
+			<input type="radio" value="male" name="gender" required/>Male
+			<input type="radio" value="female" name="gender" required/>Female
+		</p>
+		<p>
+			<select>
+				<option value="select course">select course</option>
+				<option value="mpc">MPC</option>
+				<option value="mec">MEC</option>
+				<option value="cec">CEC</option>
+			</select>
+		</p>
+		<p><input type="file" required/></p>
+		<button class="btn-submit">Submit</button>
+		<input class="btn-reset" type="Reset" required>
+	</form>
+</body>
+</html>
